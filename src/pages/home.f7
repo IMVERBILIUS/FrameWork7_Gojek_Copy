@@ -1,0 +1,551 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Top Navbar -->
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="right">
+          <a class="link panel-open">
+            <i class="icon material-icons fcolor">menu</i>
+          </a>
+        </div>
+
+        <div class="left">
+          <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+          <div class="gtext centered-text">
+            <span>gojek</span>
+          </div>
+        </div>
+
+        <div class="container ">
+
+          <div class="navbar-menu">
+            
+            <a href="/" class="navbar-link">Beranda</a>
+            <a href="/settings" class="navbar-link">Gabung jadi Mitra</a>
+            <a href="/settings" class="navbar-link">Karir</a>
+            <a href="/settings" class="navbar-link">Perusahaan</a>
+            <a href="/settings" class="navbar-link">Produk</a>
+            <a href="/settings" class="navbar-link">Blog</a>
+            <a href="/settings" class="navbar-link">Bantuan</a>
+            <a href="/settings" class="navbar-link">ID</a>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+
+
+
+    <!-- Scrollable page content-->
+    <div class="page-content">
+
+      
+      <div class="video-container">
+        <video id="myVideo" class="card-background" autoplay loop >
+          <source src="../assets/gj.mp4" type="video/mp4" />
+        </video>
+        <div class="video-text">
+          <p class="video-text-header">3 negara. 20+ layanan. 1 Platform on-demand terkemuka</p>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="container-mid">
+          <p class="text-mid">Kenalin, Gojek. Si pembawa perubahan</p>
+          <a href="/settings" class="home-button">Gabung</a>
+        </div>
+
+        <div class="custom-card">
+          <div class="card-content">
+            <div class="card-mid ">
+              <div class="content-mid">
+                <h2>Fortune Top 20</h2>
+                <p>Satu-satunya perusahaan di Asia Tenggara yang dua kali berada di daftar Perusahaan Pengubah Dunia versi majalah Fortune.</p>
+              
+              </div>
+              <div class="content-mid">
+                <h2>Berkontribusi lebih dari $7.1 triliun</h2>
+                <p>Penggerak roda perekonomian Indonesi</p>
+              </div>
+              <div class="content-mid">
+                <h2>Jaket hijau, pergerakan juga hijau</h2>
+                <p>Gojek mengurangi pemakaian plastik hingga 11.3 ton sejak Oktober 2020</p>
+              </div>
+              <div class="content-mid">
+                <h2>Tumbuh 80% sejak pandemi</h2>
+                <p>Mitra Food merchants naik 80% sejak pandemi berkat solusi digitalisasi Gojek untuk UMKM.</p>
+              </div>
+            </div>
+            
+
+            <div class="container-mid">
+              <p class="p-mid">Skala kami</p>
+              <a href="/settings" class="home-button">Gabung</a>
+            </div>
+
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card cddb">
+                    <div class="card-content">
+                      <div class="mc-1 ">
+                        <div class="card-header display-block ">
+                          <img src="../assets/cion.png" />
+                          <h3>190 juta+
+                          </h3>
+                          <p>jumlah install aplikasi kami.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="card cddb">
+                    <div class="card-content">
+                      <div class="mc-2" >
+                        <div class="card-header  display-block ">
+                          <img src="../assets/2mil.png"  />
+                          <h3>2 juta+
+                          </h3>
+                          <p>mitra Driver yang sudah bergabung dengan kami
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="card cddb">
+                    <div class="card-content">
+                      <div class="mc-3 ">
+                        <div class="card-header display-block ">
+                          <img src="../assets/50mil.png"  />
+                          <h3>900.000+
+                          </h3>
+                          <p>jumlah mitra GoFood
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+
+                <div class="col-md-3 ">
+                  <div class="card cddb">
+                    <div class="card-content">
+                      <div class="mc-4" >
+                        <div class="card-header  display-block ">
+                          <img src="../assets/12.png"  />
+                          <h3>2.448x
+                          </h3>
+                          <p>lipat kenaikan pengunduhan aplikasi Gojek dari 2015 sampai 2020</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+
+                
+              </div>
+            </div>
+            
+
+
+
+          </div>
+        </div>
+
+        
+        <div class="container">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="../assets/mengenal-strategi-branding-gojek.jpeg" alt="Los Angeles" style="width:100%;"/>
+              </div>
+
+              <div class="item">
+                <img src="../assets/download.jpeg" alt="Chicago" style="width:100%;"/>
+              </div>
+            
+              <div class="item">
+                <img src="../assets/images.gif" alt="New york" style="width:100%;"/>
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="custom-card-second">
+          <div class="card-content">
+            <div class="container-mid-second">
+              <p class="p-mid">Bertumbuh besar bersama Gojek</p>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="mc-5 ">
+                    <div class="card-header display-block cddb">
+                      <img src="../assets/emp.svg" />
+                      <h3>Gabung jadi GoTroops, yuk!
+                      </h3>
+                      <p>Di belakang startup dengan pertumbuhan paling tinggi di Asia Tenggara, terdapat talenta yang memiliki ide-ide cemerlang</p>
+                      <div>
+                        <a href="/settings" class="home-button-second">Selengkapnya</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="mc-5 ">
+                    <div class="card-header display-block cddb">
+                      <img src="../assets/driver.svg" />
+                      <h3>Gabung jadi Mitra Driver
+                      </h3>
+                      <p>Kami adalah rumah bagi lebih dari 2 juta mitra driver di Asia Tenggara, yang mendapat jaminan finansial dan fasilitas kesehatan.</p>
+                      <div>
+                        <a href="/settings" class="home-button-second">Selengkapnya</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="mc-5 ">
+                    <div class="card-header display-block cddb">
+                      <img src="../assets/merchant.svg" />
+                      <h3>Gabung jadi Mitra Usaha
+                      </h3>
+                      <p>Kami membantu 500.000+ Mitra Usaha melipatgandakan penjualan, meluaskan jangkauan, dan berkembang dengan teknologi baru.
+
+                      </p>
+                      <div>
+                        <a href="/settings" class="home-button-second">Selengkapnya</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container-mid-second">
+              <p class="p-mid">Kerja di Gojek itu beda karena...</p>
+            
+              <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img src="../assets/232.jpeg" class="d-block custom-img-width"   alt="Image 1"/>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h2>Kolaborasi antar Budaya</h2>
+                          <h5>Bisa Kerjasama Dengan GoTroops dari berbagai negara</h5>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="../assets/332.jpeg" class="d-block custom-img-width" alt="Image 2"/>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h2>Peduli Kesehatan Mental</h2>
+                          <h5>Konseling gratis untukmu dan keluargamu</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img src="../assets/22.jpeg" class="d-block custom-img-width" alt="Image 3"/>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h2>Bermacam macam Subsidi</h2>
+                          <h5>Mau beli buku,daftar gym membership, isi puls? Gojek kasih subsidi</h5>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="../assets/65.jpeg" class="d-block custom-img-width" alt="Image 4"/>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h2>Asurasi Kesehatan Buat Ayah dan Ibu</h2>
+                          <h5>Subsidi asuransi kesehatan buat kedua orang tuamu</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Add more carousel items as needed -->
+                </div>
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+            
+            
+
+
+        <div class="container-mid">
+          <p class="text-mid">Kami membangun layanan untuk membantumu melewati halangan</p>
+          <a href="/settings" class="home-button2">Lihat semua layanan</a>
+        </div>
+
+
+ <div class="container">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-3">
+        <div class="card" style="background-color: #008c15; width: 259px;">
+          <div class="card-content2">
+            <div style="background-color: #00aa13; border-radius: 15px; border-bottom-left-radius: 35px; border-bottom-right-radius: 35px; padding: 25px;">
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gobox</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>goride</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gobluebird</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gosend</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gocar</span>
+              </div>
+            </div>
+
+
+            <div class="card-header2">
+              <h2>Transportasi & Logistic</h2>
+              <div class="p-s">
+              <p class="custom-width">Mitra Driver kami sudah melakukan lebih dari 13.000 kali perjalanan bolak-balik antara bumi dan bulan.</p>
+            </div>
+          </div>
+                </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-3">
+        <div class="card" style="background-color: #0093b2; width: 259px;">
+          <div class="card-content2">
+            <div style="background-color: #00aed6; border-radius: 15px; border-bottom-left-radius: 35px; border-bottom-right-radius: 35px;padding: 25px;">
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gobox</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>goride</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gobluebird</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gosend</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gocar</span>
+              </div>
+            </div>
+
+            <div class="card-header2">
+              <h2>Pembayaran</h2>
+              <div class="p-s">
+              <p class="custom-width">Dari belanja sampai donasi, kami bikin transaksi jadi mudah dan aman.
+              </p>
+            </div>
+          </div>
+                </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-3">
+        <div class="card" style="background-color: #af272f;width: 259px;">
+          <div class="card-content2">
+            <div style="background-color: #ee2737; border-radius: 15px; border-bottom-left-radius: 35px; border-bottom-right-radius: 35px; padding: 25px;">
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gobox</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>goride</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gobluebird</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gosend</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gocar</span>
+              </div>
+            </div>
+
+
+            <div class="card-header2">
+              <h2>Pesan makanan & belanja</h2>
+              <div class="p-s">
+              <p class="custom-width">Mau jajan atau belanja di minimarket? Gampang, tinggal pesan dari aplikasi dan tidak perlu keluar rumah.</p>
+            </div>
+          </div>
+                </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card" style="background-color: #80276c;width: 259px;">
+          <div class="card-content2">
+            <div style="background-color: #93328e; border-radius: 15px; border-bottom-left-radius: 35px; border-bottom-right-radius: 35px;padding: 25px;">
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gobox</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>goride</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gobluebird</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gosend</span>
+              </div>
+              <div class="icon-text">
+                <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+                <span>gocar</span>
+              </div>
+            </div>
+
+                  <div class="card-header2">
+                    <h2>Business</h2>
+                    <div class="p-s">
+                    <p class="custom-width">Manage your restaurants, run ads, create promos, and do more.</p>
+                  </div>
+                </div>
+                </div>
+        </div>
+      </div>
+      
+
+
+
+
+    </div>
+  </div>
+  <div class="container-mid">
+    <a href="/settings" class="home-button2">Lihat semua layanan</a>
+  </div>
+
+  <div class="last">
+    <div>
+      <p class="video-text-header">Belum punya aplikasi Gojek? Yuk, unduh sekarang juga.
+      </p>
+      <div>
+        <a href="/settings" class="last-button">App Store</a>
+        <a href="/settings" class="last-button">Play Store</a>
+
+      </div>
+    </div>
+  </div>
+   
+        
+
+      </div>
+
+      <footer>
+        <h2>gojek</h2>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Perusahaan</h3>
+                <ul>
+                  <li><a href="/settings">Tentang</a></li>
+                  <li><a href="/settings">Produk</a></li>
+                  <li><a href="/settings">Blog</a></li>
+                </ul>
+                
+            </div>
+            <div class="footer-section">
+              
+              <h3>Gabung</h3>
+              <ul>
+                <li><a href="/settings">Mitra Driver</a></li>
+                <li><a href="/settings">Mitra Usaha</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Karir</h3>
+                <ul>
+                  <li><a href="/settings">Pelajar</a></li>
+                  <li><a href="/settings">Professional</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Hubungi kami</h3>
+                <ul>
+                  <li><a href="/settings">Bantuan</a></li>
+                  <li><a href="/settings">Lokasi Kami</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+      
+
+    </div>
+  </div>
+</template>
+
+
+
+<script>
+  export default () => {
+    return $render;
+  };
+  </script>
+
+

@@ -1,0 +1,28 @@
+
+<template>
+  <div id="app">
+
+    <div class="panel panel-left panel-reveal panel-init">
+      <div class="block">
+        <h3>Navigation</h3>
+        <!-- Clicking on link with "panel-close" class will close panel -->
+        <p><a href="/" data-panel=".panel-right" class="panel-open">Home</a></p>
+        <p><a href="/settings" class="panel-close">Settings</a></p>
+        <p><a href="/" data-panel=".panel-right" class="panel-open">Home</a></p>
+        <p><a href="/settings" class="panel-close">Settings</a></p>
+      </div>
+    </div>
+    
+
+
+
+  <!-- Your main view, should have "view-main" class -->
+  <div class="view view-main view-init safe-areas" data-url="/"></div>
+
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  }
+</script>

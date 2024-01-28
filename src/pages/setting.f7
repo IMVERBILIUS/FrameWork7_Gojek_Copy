@@ -1,0 +1,111 @@
+<template>
+    <div class="page" data-name="setting">
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="right">
+            <a class="link panel-open">
+              <i class="icon material-icons fcolor">menu</i>
+            </a>
+          </div>
+  
+          <div class="left">
+            <img src="../assets/sasa.png" width="48" style="max-width: 70%;margin-left: 11px; border-radius: 8px" />
+            <div class="gtext centered-text">
+              <span>gojek</span>
+            </div>
+          </div>
+  
+          <div class="container ">
+  
+            <div class="navbar-menu">
+              
+              <a href="/" class="navbar-link">Beranda</a>
+              <a href="/settings" class="navbar-link">Gabung jadi Mitra</a>
+              <a href="#" class="navbar-link">Karir</a>
+              <a href="#" class="navbar-link">Perusahaan</a>
+              <a href="#" class="navbar-link">Produk</a>
+              <a href="#" class="navbar-link">Blog</a>
+              <a href="#" class="navbar-link">Bantuan</a>
+              <a href="#" class="navbar-link">ID</a>
+            </div>
+          </div>
+  
+          
+        </div>
+      </div>
+  
+  
+  
+      <!-- Scrollable page content-->
+      <div class="page-content">
+        <div class="container2">
+          <div class="last">
+            <div>
+              <p class="video-text-header">This page is a work in progress download gojek .
+              </p>
+              <div>
+                <a href="https://apps.apple.com/id/app/gojek/id944875099" class="last-button" target="_blank">App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.gojek.app" class="last-button" target="_blank">Play Store</a>                
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+  
+        
+
+
+
+        <footer>
+          <h2>gojek</h2>
+          <div class="footer-container">
+              <div class="footer-section">
+                  <h3>Perusahaan</h3>
+                  <ul>
+                    <li><a href="/settings">Tentang</a></li>
+                    <li><a href="/settings">Produk</a></li>
+                    <li><a href="/settings">Blog</a></li>
+                  </ul>
+                  
+              </div>
+              <div class="footer-section">
+                
+                <h3>Gabung</h3>
+                <ul>
+                  <li><a href="/settings">Mitra Driver</a></li>
+                  <li><a href="/settings">Mitra Usaha</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                  <h3>Karir</h3>
+                  <ul>
+                    <li><a href="/settings">Pelajar</a></li>
+                    <li><a href="/settings">Professional</a></li>
+                  </ul>
+              </div>
+              <div class="footer-section">
+                  <h3>Hubungi kami</h3>
+                  <ul>
+                    <li><a href="/settings">Bantuan</a></li>
+                    <li><a href="/settings">Lokasi Kami</a></li>
+                  </ul>
+              </div>
+          </div>
+      </footer>
+     
+          
+  
+        </div>
+  
+
+        
+  
+      </div>
+
+  </template>
+  <script>
+  export default () => {
+    return $render;
+  }
+  </script>

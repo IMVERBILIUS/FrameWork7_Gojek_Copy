@@ -1,0 +1,675 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101820;
+  color: #fff;
+  height: 15vh;
+  padding: 0 20px;
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+}
+.cddb{
+  background: inherit;
+  border: none;
+}
+.right {
+  @media (max-width: 768px) {
+    order: -1;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.gtext {
+  margin-left: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media (max-width: 768px) {
+    display: none; /* Hide the menu in mobile view */
+  }
+}
+
+
+.navbar-link {
+  color: #fff !important;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 0;
+
+  &:hover {
+    text-decoration: underline;
+    color: #7ccc6c; /* Change color on hover */
+  }
+
+  @media (max-width: 768px) {
+    margin: 0;
+    padding: 10px 0;
+  }
+}
+
+body,
+html {
+  overflow: auto;
+  height: 100%;
+  margin: 0;
+}
+
+.fcolor {
+  color: #ffffff;
+}
+
+.gtext {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 11px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Mengatur tinggi minimal halaman agar dapat scroll kebawah */
+  overflow-y: auto; /* Menambahkan overflow-y agar muncul scrollbar jika konten melebihi tinggi viewport */
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: auto; /* Set tinggi video menjadi otomatis sesuai dengan aspek rasio */
+  max-width: 100%; /* Hindari video melebihi lebar parent */
+  background-color: #101820;
+  
+}
+
+.video-background {
+  width: 100%;
+  height: auto;
+}
+
+
+.card-background {
+  width: 100%;
+  height: auto;
+}
+
+.video-text {
+  position: absolute;
+  width: 470px;
+  top: 49%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  z-index: 1;
+  font-family: 'Braga Leaves Right'
+}
+
+
+.video-text p {
+  font-size: 54px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+
+
+.custom-card {
+  background-color: #ffffff;
+  border-top-left-radius: 120px;
+  border-top-right-radius: 120px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.custom-card-second {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.card-content {
+  color: #000000;
+
+
+  
+}
+
+.container2{
+  width: 100%;
+  height: auto;
+  background-color: #101820;
+}
+
+.container-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 223px;
+}
+.container-mid-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 33px;
+  
+}
+
+
+
+.container-mid2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3%;
+}
+.content-mid{
+  max-width: 195px;
+}
+
+.text-mid {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Times New Roman", Times, serif;
+  width: 459px;
+  height: auto;
+  font-size: 42px;
+  margin: 0; /* Menghilangkan margin bawaan pada elemen <p> */
+  padding: 25px;
+}
+
+.home-button {
+  display: inline-block; /* Ensures the anchor element respects width and height */
+  text-decoration: none; /* Removes default underline */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; /* Mengatur sudut button menjadi round */
+  background-color: #28a745; /* Warna hijau */
+  color: #ffffff; /* Warna teks putih */
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  width: fit-content;
+}
+
+
+.last-button {
+  display: inline-block; /* Ensures the anchor element respects width and height */
+  text-decoration: none; /* Removes default underline */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; /* Mengatur sudut button menjadi round */
+  background-color: #fff; /* Warna hijau */
+  color: black; /* Warna teks putih */
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  width: fit-content;
+  margin: 15px;
+}
+
+
+.home-button2 {
+  display: inline-block; /* Ensures the anchor element respects width and height */
+  text-decoration: none; /* Removes default underline */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; /* Mengatur sudut button menjadi round */
+  background-color: #28a745; /* Warna hijau */
+  color: #ffffff; /* Warna teks putih */
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.home-button-second{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; /* Mengatur sudut button menjadi round */
+  background-color: #28a745; /* Warna hijau */
+  color: #ffffff; /* Warna teks putih */
+  font-size: 16px;
+  cursor: pointer;
+  width: 60%;
+  font-weight: bold;
+}
+.mc-1 img,
+.mc-2 img,
+.mc-3 img,
+.mc-4 img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-top: -115px; /* Adjust the negative margin based on your preference */
+  width: 248px;
+  margin-bottom: 89px;
+}
+.mc-5 img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-top: -99px; /* Adjust the negative margin based on your preference */
+  width: 99px;
+}
+
+.mc-1 h3,
+.mc-2 h3,
+.mc-3 h3,
+.mc-4 h3 {
+  font-weight: bold;
+}
+
+.mc-5 h3{
+  font-weight: bold;
+  width: 69%;
+}
+.mc-1 p,
+.mc-2 p,
+.mc-3 p,
+.mc-4 p,
+.mc-5 p {
+  font-size: 17px;
+}
+
+.card-second{
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adjust the shadow as needed */
+  padding: 15px; /* Adjust the padding as needed */
+  border-radius: 15px; /* Add border-radius for rounded corners */
+}
+
+.mc-5{
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust the shadow as needed */
+  padding: 15px; /* Adjust the padding as needed */
+  border-radius: 33px; /* Add border-radius for rounded corners */
+  height: 355px;
+}
+
+.mc-1{
+  border-radius: 30px;
+  background-color: #d48bc8;
+  box-shadow: black;
+  height: 355px;
+}
+
+.mc-2{  
+  border-radius: 30px;
+  background-color: #7ccc6c;
+  box-shadow: black;
+  height: 355px;
+}
+.mc-3{
+  border-radius: 30px;
+  background-color: #ffae62
+  ;
+  box-shadow: black;
+  height: 355px;
+}
+.mc-4{
+  border-radius: 30px;
+  background-color: #4ac9e3;
+  box-shadow: black;
+  height: 355px;
+}
+
+.card-mid {
+  display: flex;
+  justify-content: space-around;
+  padding: 55px;
+  padding-top: 65px;
+
+}
+.p-mid{
+  color: #000000;
+  font-weight: bold;
+  font-size: 55px;
+  width: 45%;
+}
+
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 35px; /* Adjust the border radius as needed */
+}
+
+.custom-img-width {
+  width: 700px; /* Set your desired width */
+  height: 351px; /* Maintain aspect ratio */
+  position: relative;
+  filter: brightness(50%) contrast(80%);
+  
+}
+
+
+
+
+    /* Set a fixed height for the carousel container */
+    #myCarousel {
+      height: 700px; /* Adjust the height as needed */
+      width: 11100px;
+    }
+
+    /* Ensure images maintain aspect ratio */
+    #myCarousel img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    footer {
+      width: 100%;
+      background-color: #101820;
+      color: #fff;
+      padding: 40px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    footer h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      margin-left: 165px;
+    }
+    
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 55px;
+      margin-left: 112px;
+      width: 100%;
+    }
+    
+    .footer-section {
+      flex-basis: calc(25% - 20px);
+      margin-bottom: 20px;
+    }
+    
+    .footer-section h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .footer-section li {
+      margin-bottom: 5px;
+    }
+    
+    .footer-section a {
+      color: #fff;
+      text-decoration: none;
+
+    }
+    @media (max-width: 768px) {
+      footer {
+        width: 100%;
+        background-color: #101820;
+        color: #fff;
+        padding: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+    footer h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      margin-left: 20px; /* Adjusted margin for smaller screens */
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px; /* Adjusted padding for smaller screens */
+      margin-left: 20px; /* Adjusted margin for smaller screens */
+      width: 100%;
+    }
+
+    .footer-section {
+      flex-basis: calc(50% - 20px); /* Adjusted flex-basis for smaller screens */
+      margin-bottom: 20px;
+    }
+
+    .footer-section h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    }
+
+    .container-second{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .icon-text span{
+      font-size: 25px;
+    }
+
+    .icon-text {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+      width: 399px;
+      
+    }
+
+    .icon-text img {
+      width: 48px;
+      max-width: 70%;
+      margin-left: 11px;
+      border-radius: 8px;
+    }
+
+    .icon-text span {
+      margin-left: 10px;
+      color: #fff;
+    }
+
+    .card-content2 {
+      display: flex;
+      flex-direction: column;
+      height: 513px;
+      width: 255px;
+      min-height: 100%;
+      border-radius: 8px;
+    }
+
+    .card-header2 {
+      flex-grow: 1;
+      padding: 10px;
+      color: #fff;
+      text-align: center;
+    }
+    .custom-width {
+      width: 200px; /* Sesuaikan lebar yang diinginkan */
+      margin: 0 auto; /* Untuk memposisikan teks di tengah */
+    }
+    .last {
+      background-image: url(../assets/sasa213.png);
+      background-size: cover;
+      background-position: center;
+      height: 0;
+      padding-bottom: 75%;
+      position: relative;
+    }
+    
+    .last p {
+      font-size: 55px;
+      width: 100%; /* Adjusted width for responsiveness */
+      max-width: 553px; /* Added max-width for larger screens */
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(5, 5, 5, 0.5); /* Add text shadow */
+    }
+    
+    .last > div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+
+
+@media (max-width: 768px) {
+  .custom-card {
+    width: 100%;
+
+  }
+
+  .last p {
+    font-size: 15px; /* Adjusted font size for smaller screens */
+  }
+  .last-button{
+    font-size: 5px;
+  }
+  .video-text {
+    left: 40%;
+    width: 60%; /* Misalnya, ubah lebar teks menjadi 90% pada perangkat mobile */
+    
+  }
+  .footer-section {
+    flex-basis: 100%;
+  }
+  .video-text p {
+    font-size: 17px; /* Atur ukuran teks yang sesuai untuk perangkat mobile */
+  }
+  .text-mid {
+    font-size: 32px;
+    margin-top: 7%;
+    width: 333px;
+  }
+  
+  .home-button{
+    width: auto;
+  }
+
+  
+  .page-content{
+  overflow-x: hidden;
+    
+  }
+  .p-mid{
+    width: 229px;
+    font-size: 32px;
+  }
+
+  
+
+
+
+
+  .content-mid {
+    width: 90px; /* Sesuaikan lebar konten sesuai kebutuhan */
+    text-align: center; /* Pusatkan teks pada mobile */
+    padding: 10px; /* Tambahkan padding jika diperlukan */
+    box-sizing: border-box; /* Sesuaikan box-sizing agar padding tidak mempengaruhi lebar keseluruhan */
+  }
+
+  .content-mid h2 {
+    font-size: 17px; /* Sesuaikan ukuran font untuk mobile */
+  }
+  .content-mid p {
+    font-size: 11px; /* Sesuaikan ukuran font untuk mobile */
+  }
+  .mc-1,
+  .mc-2,
+  .mc-3,
+  .mc-4,
+  .mc-5 {
+    height: auto;
+    margin-bottom: 94px;
+  }
+  .mc-1 img,
+  .mc-2 img,
+  .mc-3 img,
+  .mc-4 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin-top: -115px; /* Adjust the negative margin based on your preference */
+    width: 248px;
+  }
+
+  .mc-5 h3{
+    font-size: 22px;
+  }
+
+  .mc-5 p{
+    font-size: 15px;
+  }
+
+  .container-mid-second p{
+    font-size: 28px;
+    width: 299px;
+    margin-bottom: 99px;
+  }
+  #myCarousel {
+    height: 200px; /* Adjust the height as needed */
+    width: 11100px;
+  }
+
+
+}
+
+
+
+  
+  
+
