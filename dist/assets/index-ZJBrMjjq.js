@@ -765,7 +765,7 @@ ${o.toString()}`)}return r&&(typeof r=="string"?l+=`?${r}`:Object.keys(r).length
 
     </div>
   </div>
-`}}Fr.id="be0a71e52d";function Vr(){return function(s){var e=s.$,a=s.$h,t=s.$root,r=s.$f7,n=s.$f7route,i=s.$f7router,l=s.$theme,o=s.$update,c=s.$store;return a`
+`}}Fr.id="c0105a6001";function Vr(){return function(s){var e=s.$,a=s.$h,t=s.$root,r=s.$f7,n=s.$f7route,i=s.$f7router,l=s.$theme,o=s.$update,c=s.$store;return a`
     <div class="page" data-name="setting">
       <div class="navbar">
         <div class="navbar-inner">
@@ -870,7 +870,7 @@ ${o.toString()}`)}return r&&(typeof r=="string"?l+=`?${r}`:Object.keys(r).length
   
       </div>
 
-  `}}Vr.id="f24c93826e";var Yp=[{path:"/",component:Fr},{path:"/settings",component:Vr}];ze.use([fr]);Oe.use([rr,nr,ir,or,lr,ur,Wa,yr,wr,Er,$r,Cr,xr,kr,Tr,Sr,Pr,Mr]);const Wp=La({state:{products:[{id:"1",title:"Apple iPhone 8",description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis."},{id:"2",title:"Apple iPhone 8 Plus",description:"Velit odit autem modi saepe ratione totam minus, aperiam, labore quia provident temporibus quasi est ut aliquid blanditiis beatae suscipit odio vel! Nostrum porro sunt sint eveniet maiores, dolorem itaque!"},{id:"3",title:"Apple iPhone X",description:"Expedita sequi perferendis quod illum pariatur aliquam, alias laboriosam! Vero blanditiis placeat, mollitia necessitatibus reprehenderit. Labore dolores amet quos, accusamus earum asperiores officiis assumenda optio architecto quia neque, quae eum."}]},getters:{products({state:s}){return s.products}},actions:{addProduct({state:s},e){s.products=[...s.products,e]}}});function Nr(){return function(s){var e=s.$,a=s.$h,t=s.$root,r=s.$f7,n=s.$f7route,i=s.$f7router,l=s.$theme,o=s.$update,c=s.$store;return a`
+  `}}Vr.id="c0396fac3c";var Yp=[{path:"/",component:Fr},{path:"/settings",component:Vr}];ze.use([fr]);Oe.use([rr,nr,ir,or,lr,ur,Wa,yr,wr,Er,$r,Cr,xr,kr,Tr,Sr,Pr,Mr]);const Wp=La({state:{products:[{id:"1",title:"Apple iPhone 8",description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis."},{id:"2",title:"Apple iPhone 8 Plus",description:"Velit odit autem modi saepe ratione totam minus, aperiam, labore quia provident temporibus quasi est ut aliquid blanditiis beatae suscipit odio vel! Nostrum porro sunt sint eveniet maiores, dolorem itaque!"},{id:"3",title:"Apple iPhone X",description:"Expedita sequi perferendis quod illum pariatur aliquam, alias laboriosam! Vero blanditiis placeat, mollitia necessitatibus reprehenderit. Labore dolores amet quos, accusamus earum asperiores officiis assumenda optio architecto quia neque, quae eum."}]},getters:{products({state:s}){return s.products}},actions:{addProduct({state:s},e){s.products=[...s.products,e]}}});function Nr(){return function(s){var e=s.$,a=s.$h,t=s.$root,r=s.$f7,n=s.$f7route,i=s.$f7router,l=s.$theme,o=s.$update,c=s.$store;return a`
   <div id="app">
 
     <div class="panel panel-left panel-reveal panel-init">
@@ -891,4 +891,4 @@ ${o.toString()}`)}return r&&(typeof r=="string"?l+=`?${r}`:Object.keys(r).length
   <div class="view view-main view-init safe-areas" data-url="/"></div>
 
   </div>
-`}}Nr.id="5810c08bfd";var Xp=new Oe({name:"FinalExam",theme:"auto",el:"#app",component:Nr,store:Wp,routes:Yp,serviceWorker:{path:"/service-worker.js"}});Xp.on("pageInit",function(s){if(s.name==="home"){var e=document.getElementById("myVideo");e.muted=!0}});
+`}}Nr.id="ebf9be69ff";var Xp=new Oe({name:"FinalExam",theme:"auto",el:"#app",component:Nr,store:Wp,routes:Yp,serviceWorker:{path:"/service-worker.js"}});Xp.on("pageInit",function(s){if(s.name==="home"){var e=document.getElementById("myVideo");e.muted=!0}});
