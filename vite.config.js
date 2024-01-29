@@ -1,17 +1,14 @@
-
 import path from 'path';
 import framework7 from 'rollup-plugin-framework7';
 
-
 const SRC_DIR = path.resolve(__dirname, './src');
 const PUBLIC_DIR = path.resolve(__dirname, './public');
-const BUILD_DIR = path.resolve(__dirname, './www',);
-export default async () => {
+const BUILD_DIR = path.resolve(__dirname, './dist'); // Adjusted to match Netlify's default publish directory
 
-  return  {
+export default async () => {
+  return {
     plugins: [
       framework7({ emitCss: false }),
-
     ],
     root: SRC_DIR,
     base: '',
